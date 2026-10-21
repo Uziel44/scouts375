@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grupo Scout Gabriela Mistral</title>
+  <meta name="description" content="Grupo Scout Gabriela Mistral, Córdoba. Aprendé, reí y hacé amigos para siempre. Inscribite ya.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ 1. NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand">
+        <!-- Reemplazar por el logo: img/logo.png -->
+        <span class="nav__logo" aria-hidden="true">⚜</span>
+        <span>Gabriela Mistral</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="menu">
+        <a href="#quienes-somos">Quiénes somos</a>
+        <a href="#ramas">Ramas</a>
+        <a href="#vida-scout">Vida Scout</a>
+        <a href="#novedades">Novedades</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#inscripcion" class="btn btn--red btn--sm">Inscribirme</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ 2. BANNER ============ -->
+    <section class="hero photo" style="--img: url('img/44.jpg')">
+      <div class="container hero__content">
+        <p class="eyebrow">Grupo Scout · Córdoba</p>
+        <h1>¡Prepárate para la aventura de tu vida!</h1>
+        <p class="hero__text">
+          Un espacio de encuentro donde niños y jóvenes descubren la vida al aire libre,
+          forjan amistades y desarrollan sus propios valores.
+        </p>
+        <div class="hero__actions">
+          <a href="#inscripcion" class="btn btn--yellow">¡Inscribite!</a>
+          <a href="#quienes-somos" class="btn btn--ghost">Conocer el grupo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. QUIÉNES SOMOS Y VISIÓN ============ -->
+    <section class="section" id="quienes-somos">
+      <div class="container">
+        <h2 class="section__title">Quiénes somos</h2>
+        <div class="about">
+          <p class="section__lead">
+            Casi 40 años formando jóvenes en el barrio Jerónimo Luis de Cabrera. Hoy somos 177 miembros
+            que viven el Movimiento Scout al aire libre.
+          </p>
+          <div class="about__img photo" role="img" aria-label="Integrantes del grupo en la sede" style="--img: url('img/14.jpg')"></div>
+        </div>
+        <div class="grid grid--2">
+          <article class="panel">
+            <h3>Nuestra visión</h3>
+            <p>Ser un grupo que forme personas íntegras, solidarias y comprometidas con su comunidad. <!-- EDITAR --></p>
+          </article>
+          <article class="panel">
+            <h3>Nuestra misión</h3>
+            <p>Acompañar a niñas, niños y jóvenes a crecer a través del juego, la naturaleza y el servicio. <!-- EDITAR --></p>
+          </article>
+        </div>
+        <div class="grid grid--4 pillars">
+          <div class="pillar"><span class="pillar__icon pillar__icon--green">★</span><h4>Valores</h4><p>Ley y Promesa Scout.</p></div>
+          <div class="pillar"><span class="pillar__icon pillar__icon--red">♥</span><h4>Servicio</h4><p>Acciones solidarias con la comunidad.</p></div>
+          <div class="pillar"><span class="pillar__icon pillar__icon--yellow">▲</span><h4>Aventura</h4><p>Naturaleza y desafíos.</p></div>
+          <div class="pillar"><span class="pillar__icon pillar__icon--green">●</span><h4>Comunidad</h4><p>Amistad y trabajo en equipo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. RAMAS ============ -->
+    <section class="section section--alt" id="ramas">
+      <div class="container">
+        <h2 class="section__title">Continúa el gran juego</h2>
+        <p class="section__lead">Cuatro etapas, una por edad. Cada una con su propia aventura.</p>
+        <div class="grid grid--4">
+          <article class="branch branch--yellow">
+            <div class="branch__img photo" style="--img: url('img/21.jpg')"></div>
+            <div class="branch__badge">Manada</div>
+            <p class="branch__age">7 a 11 años</p>
+            <h3>Manada de Lobatos</h3>
+            <p>Juegos, cuentos, aventuras y compañerismo.</p>
+          </article>
+          <article class="branch branch--green">
+            <div class="branch__img photo" style="--img: url('img/41.jpg')"></div>
+            <div class="branch__badge">Unidad</div>
+            <p class="branch__age">11 a 14 años</p>
+            <h3>Unidad Scout</h3>
+            <p>Desafíos, trabajo en equipo y técnica scout.</p>
+          </article>
+          <article class="branch branch--blue">
+            <div class="branch__img photo" style="--img: url('img/19.jpg')"></div>
+            <div class="branch__badge">Caminantes</div>
+            <p class="branch__age">14 a 17 años</p>
+            <h3>Comunidad de Caminantes</h3>
+            <p>Forjar el carácter y aprender haciendo.</p>
+          </article>
+          <article class="branch branch--red">
+            <div class="branch__img photo" style="--img: url('img/35.jpg')"></div>
+            <div class="branch__badge">Rovers</div>
+            <p class="branch__age">18 a 21 años</p>
+            <h3>Clan de Rovers</h3>
+            <p>Servicio a la comunidad y compromiso.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. VIDA SCOUT ============ -->
+    <section class="section" id="vida-scout">
+      <div class="container">
+        <h2 class="section__title">Vida Scout</h2>
+        <div class="grid grid--2">
+          <a href="#campamentos" class="card photo" style="--img: url('img/47.jpg')">
+            <h3>Campamentos</h3><p>Reviví nuestras aventuras.</p><span class="card__link">Ver campamentos →</span>
+          </a>
+          <a href="#calendario" class="card photo" style="--img: url('img/39.jpg')">
+            <h3>Calendario de actividades</h3><p>Enterate de próximas actividades y eventos.</p><span class="card__link">Ver calendario →</span>
+          </a>
+          <a href="#historia" class="card photo" style="--img: url('img/25.jpg')">
+            <h3>Nuestra historia</h3><p>Hitos, integrantes y fotos históricas del grupo.</p><span class="card__link">Ver historia →</span>
+          </a>
+          <a href="#inscripcion" class="card photo" style="--img: url('img/02.jpg')">
+            <h3>Documentos</h3><p>Autorizaciones, fichas médicas y documentos para descargar.</p><span class="card__link">Ir a documentos →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INSCRIPCIÓN (reemplaza al Linktree) ============ -->
+    <section class="section section--alt" id="inscripcion">
+      <div class="container">
+        <h2 class="section__title">Cómo inscribirme</h2>
+        <p class="notice"><strong>Importante:</strong> todo por duplicado. Documentación + fotocopia de DNI + carnet de vacunación.</p>
+        <ol class="steps">
+          <li>
+            <span class="steps__n">1</span>
+            <div><h3>Leé la explicación</h3><p>Qué tenés que hacer, paso a paso.</p></div>
+            <a class="btn btn--sm btn--green" href="https://drive.google.com/file/d/1ae61l9sfxJ0xVwGUhQ5vgxZYSvG9F66x/view?usp=sharing" target="_blank" rel="noopener">Leer</a>
+          </li>
+          <li>
+            <span class="steps__n">2</span>
+            <div><h3>Completá el formulario</h3><p>Formulario de Google.</p></div>
+            <a class="btn btn--sm btn--red" href="https://forms.gle/eVJDTHA24w7QyeGu9" target="_blank" rel="noopener">Abrir formulario</a>
+          </li>
+          <li>
+            <span class="steps__n">3</span>
+            <div><h3>Descargá, completá y firmá los documentos</h3>
+              <ul class="docs">
+                <li><a href="https://drive.google.com/file/d/1lA8rgcJjHZVKXwlzoM8C-CuheNCBAJty/view?usp=sharing" target="_blank" rel="noopener">Planilla afiliatoria</a></li>
+                <li><a href="https://drive.google.com/file/d/1ncycbbVPR7QBtpmDOSdle7_SDu4KJiVc/view?usp=sharing" target="_blank" rel="noopener">Declaración jurada de salud</a></li>
+                <li><a href="https://drive.google.com/file/d/1LnyFFe9o5f15DMKUNWq3Nh5euF2NyZAZ/view?usp=sharing" target="_blank" rel="noopener">Reglamento de grupo</a></li>
+                <li><a href="https://drive.google.com/file/d/1mlJB7ZNVz4njeeMp1gfaEZwsrtaRuZQu/view?usp=sharing" target="_blank" rel="noopener">Autorización anual</a></li>
+                <li><a href="https://drive.google.com/file/d/1cNTm1reXP5nXprVNKf_zWmNsLZF1W8rh/view?usp=sharing" target="_blank" rel="noopener">Uso de imagen</a></li>
+                <li><a href="https://drive.google.com/file/d/1QjntlLmkpD9Jv9xYnYWGAbd21d1_uy8w/view?usp=sharing" target="_blank" rel="noopener">Autorización anual salidas cercanas</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <span class="steps__n">4</span>
+            <div><h3>Entregá todo en el grupo</h3><p>Por duplicado, con fotocopia de DNI y carnet de vacunación.</p></div>
+            <a class="btn btn--sm btn--green" href="#contacto">Dónde y cuándo</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 6. NOVEDADES ============ -->
+    <section class="section" id="novedades">
+      <div class="container">
+        <h2 class="section__title">Novedades</h2>
+        <div class="grid grid--3">
+          <!-- Duplicar un <article> por cada novedad -->
+          <article class="news">
+            <div class="news__img photo" style="--img: url('img/38.jpg')"></div>
+            <time>Fecha</time>
+            <h3>Título de la novedad</h3>
+            <p>Resumen breve. <!-- EDITAR --></p>
+          </article>
+          <article class="news">
+            <div class="news__img photo" style="--img: url('img/43.jpg')"></div>
+            <time>Fecha</time>
+            <h3>Título de la novedad</h3>
+            <p>Resumen breve. <!-- EDITAR --></p>
+          </article>
+          <article class="news">
+            <div class="news__img photo" style="--img: url('img/55.jpg')"></div>
+            <time>Fecha</time>
+            <h3>Título de la novedad</h3>
+            <p>Resumen breve. <!-- EDITAR --></p>
+          </article>
+        </div>
+        <p class="center">
+          <a class="btn btn--green" href="https://www.instagram.com/gabriela_mistral_375" target="_blank" rel="noopener">Seguinos en Instagram</a>
+          <a class="btn btn--ghost-dark" href="https://www.facebook.com/groups/323089424476088" target="_blank" rel="noopener">Grupo de Facebook</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ 7. CONTACTO ============ -->
+    <section class="section section--alt" id="contacto">
+      <div class="container grid grid--2">
+        <div>
+          <h2 class="section__title">Contacto</h2>
+          <ul class="contact">
+            <li><strong>Dirección:</strong> Horacio Anasagasti, entre Mayor Arturo Luisoni y Mackay Gordon, barrio Jerónimo Luis de Cabrera, Córdoba.</li>
+            <li><strong>Reuniones:</strong> Día y horario <!-- EDITAR --></li>
+            <li><strong>Correo:</strong> correo@ejemplo.com <!-- EDITAR --></li>
+            <li><strong>Instagram:</strong> <a href="https://www.instagram.com/gabriela_mistral_375" target="_blank" rel="noopener">@gabriela_mistral_375</a></li>
+          </ul>
+        </div>
+        <form class="form" action="https://formspree.io/f/TU_ID" method="POST">
+          <label>Nombre completo <input name="nombre" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Teléfono <input type="tel" name="telefono"></label>
+          <label>Mensaje <textarea name="mensaje" rows="4" required></textarea></label>
+          <button class="btn btn--red" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ 8. FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>Grupo Scout Gabriela Mistral</strong>
+        <p>Siempre listos.</p>
+      </div>
+      <nav class="footer__links">
+        <a href="#quienes-somos">Quiénes somos</a>
+        <a href="#ramas">Ramas</a>
+        <a href="#vida-scout">Vida Scout</a>
+        <a href="#inscripcion">Inscripción</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <p class="footer__copy">© 2026 Grupo Scout Gabriela Mistral. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
